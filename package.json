@@ -1,0 +1,15 @@
+{
+  "name": "notours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/style.scss assets/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "node-sass": "^7.0.1"
+  }
+}

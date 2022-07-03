@@ -1,0 +1,16 @@
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,rgba(126, 213, 111,0.7),rgba(40, 180, 133,0.7)),url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+    position: relative;
+    &-caption{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%,-40%);
+        text-align: center;
+    }
+}
